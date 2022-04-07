@@ -9,7 +9,8 @@ public class Section_A_Question_7 {
     }
     public static void isDistinctWord(String input){
        HashMap<String,String> hashMap = new LinkedHashMap<String,String>();
-       String[] inputArray = input.split(" "); // To convert string to string array
+        // To convert string to string array
+       String[] inputArray = input.split(" ");
        //Iterate the string array and put the value to the hash map, hash map not allow duplicate key
        for(String word : inputArray) {
     	   hashMap.put(word,word);
