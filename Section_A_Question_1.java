@@ -4,7 +4,7 @@
 public class Section_A_Question_1 {
 	public static void main(String args[]) {
 		System.out.println("Output 1");
-		diagonalPattern("racecarty");
+		diagonalPattern("racecar");
 		System.out.println("Output 2");
 		diagonalPattern("football");
 	}
